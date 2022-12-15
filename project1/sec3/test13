@@ -1,0 +1,9 @@
+tp=(124,False,"lee")
+print(tp[0])
+print(tp)
+lst=list(tp)
+print(lst)
+lst[1]=True
+tp=tuple(lst)
+print(tp)
+a=tp[0:2]
